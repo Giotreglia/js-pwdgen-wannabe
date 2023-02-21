@@ -1,4 +1,21 @@
-#psw {
-    text-align: center;
-    color: blue;
+main {
+    height: 100vh;
+    font-family: monospace;
+}
+
+.container {
+    background-image: url(../img/matrix-bg.jpg);
+}
+
+
+button:active {
+    scale: 0.9;
+}
+
+#liveAlertPlaceholder {
+    color: lime;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 0;
+    top: -50px;
 }
