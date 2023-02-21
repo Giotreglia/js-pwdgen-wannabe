@@ -21,7 +21,9 @@ const psw = nomePsw + cognomePsw + colorePsw + annoCorrente;
 
 document.getElementById("psw").innerHTML = `${psw}`;
 
-//trigger
+// Pulsante "copy" con alert "copied" che compare quando pulsante cliccato
+
+// Copiato da bootstrap senza sapere come funziona :) solo per effetto grafico
 
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 
